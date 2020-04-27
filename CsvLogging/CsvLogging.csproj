@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A class library for writing csv files</Description>
+    <Copyright>Dennis Rosenkilde</Copyright>
+    <Authors>Dennis Rosenkilde</Authors>
+    <Company></Company>
+    <Product>Csv Logging</Product>
+    <PackageId>CsvLogging</PackageId>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>
